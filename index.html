@@ -2,13 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/damabot-app/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>damabot</title>
-    <script type="module" crossorigin src="/damabot-app/assets/index-fMBCNMS0.js"></script>
-    <link rel="stylesheet" crossorigin href="/damabot-app/assets/index-C41f_3zO.css">
+    <meta name="description" content="Your news, as a podcast." />
+    <meta name="theme-color" content="#647488" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="damabot" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/damabot-app/favicon-32.png" />
+    <link rel="apple-touch-icon" href="/damabot-app/icon-180.png" />
+    <link rel="manifest" href="/damabot-app/manifest.json" />
+    <script type="module" crossorigin src="/damabot-app/assets/index-6_bRVibD.js"></script>
+    <link rel="stylesheet" crossorigin href="/damabot-app/assets/index-DIcPoozH.css">
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => navigator.serviceWorker.register('/damabot-app/sw.js'));
+      }
+    </script>
   </body>
 </html>

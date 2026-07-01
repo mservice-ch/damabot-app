@@ -1,0 +1,16 @@
+{
+  "name": "damabot",
+  "short_name": "damabot",
+  "description": "Your news, as a podcast.",
+  "start_url": "/damabot-app/",
+  "scope": "/damabot-app/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f6f8",
+  "theme_color": "#647488",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon.png",     "sizes": "1024x1024", "type": "image/png" }
+  ]
+}
